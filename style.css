@@ -30,8 +30,8 @@ li {
  z-index: 100;
  width: 100vw;
  height: 100vh;
- background-color: rgba(0, 0, 0, 0.5);
- /* backdrop-filter: blur(2px); */
+ background-color: rgba(0, 0, 0, 0.7);
+ backdrop-filter: blur(5px);
  display: none;
  }
  #lightbox-bg.active {
@@ -39,8 +39,6 @@ li {
    place-items: center;
  }
  #full-image {
-   width: 650px;
-   height: 500px;
    position: fixed;
    top: 50%;
    left: 50%;
