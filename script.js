@@ -13,7 +13,6 @@ images.forEach(images => {
     fullImage.id = 'full-image';  
 
     lightboxBg.appendChild(fullImage);
-       
   })
 })
 
